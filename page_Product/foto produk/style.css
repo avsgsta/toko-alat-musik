@@ -1,0 +1,10 @@
+.card {
+  width: 48%; /* Lebar kartu */
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: rgb(213, 216, 56);
+}

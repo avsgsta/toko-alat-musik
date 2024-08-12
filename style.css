@@ -1,0 +1,87 @@
+img {
+  clip-path: "rectangle";
+  width: 1500px;
+  height: 450px;
+}
+
+video {
+  clip-path: rectangle;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins"
+}
+
+.jumbotron {
+  color: rgb(0, 128, 255);
+}
+
+.nav {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img {
+  height: 500px; /* Sesuaikan dengan ukuran yang Anda inginkan */
+  width: 100%;
+  object-fit: cover; /* Menjaga proporsi gambar dan mengisi area */
+}
+
+
+#gambartengah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logobrand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style untuk tampilan accordion */
+.accordion {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.accordion-button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.active {
+  display: block;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
